@@ -1,0 +1,12 @@
+C:\Lab\XFNaviPara\XFNaviPara\XFNaviPara\bin\Debug\netstandard2.0\XFNaviPara.deps.json
+C:\Lab\XFNaviPara\XFNaviPara\XFNaviPara\bin\Debug\netstandard2.0\XFNaviPara.dll
+C:\Lab\XFNaviPara\XFNaviPara\XFNaviPara\obj\Debug\netstandard2.0\XFNaviPara.csprojResolveAssemblyReference.cache
+C:\Lab\XFNaviPara\XFNaviPara\XFNaviPara\obj\Debug\netstandard2.0\XFNaviPara.csproj.CoreCompileInputs.cache
+C:\Lab\XFNaviPara\XFNaviPara\XFNaviPara\obj\Debug\netstandard2.0\XFNaviPara.App.xaml.g.cs
+C:\Lab\XFNaviPara\XFNaviPara\XFNaviPara\obj\Debug\netstandard2.0\XFNaviPara.Views.MainPage.xaml.g.cs
+C:\Lab\XFNaviPara\XFNaviPara\XFNaviPara\obj\Debug\netstandard2.0\XFNaviPara.AssemblyInfoInputs.cache
+C:\Lab\XFNaviPara\XFNaviPara\XFNaviPara\obj\Debug\netstandard2.0\XFNaviPara.AssemblyInfo.cs
+C:\Lab\XFNaviPara\XFNaviPara\XFNaviPara\bin\Debug\netstandard2.0\XFNaviPara.pdb
+C:\Lab\XFNaviPara\XFNaviPara\XFNaviPara\obj\Debug\netstandard2.0\XFNaviPara.Views.NextPage.xaml.g.cs
+C:\Lab\XFNaviPara\XFNaviPara\XFNaviPara\obj\Debug\netstandard2.0\XFNaviPara.dll
+C:\Lab\XFNaviPara\XFNaviPara\XFNaviPara\obj\Debug\netstandard2.0\XFNaviPara.pdb

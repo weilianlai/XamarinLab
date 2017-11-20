@@ -1,0 +1,8 @@
+C:\Lab\XFCustVM\XFCustVM\XFCustVM\bin\Debug\netstandard2.0\XFCustVM.deps.json
+C:\Lab\XFCustVM\XFCustVM\XFCustVM\bin\Debug\netstandard2.0\XFCustVM.dll
+C:\Lab\XFCustVM\XFCustVM\XFCustVM\obj\Debug\netstandard2.0\XFCustVM.csprojResolveAssemblyReference.cache
+C:\Lab\XFCustVM\XFCustVM\XFCustVM\obj\Debug\netstandard2.0\XFCustVM.csproj.CoreCompileInputs.cache
+C:\Lab\XFCustVM\XFCustVM\XFCustVM\obj\Debug\netstandard2.0\XFCustVM.App.xaml.g.cs
+C:\Lab\XFCustVM\XFCustVM\XFCustVM\obj\Debug\netstandard2.0\XFCustVM.Views.MainPage.xaml.g.cs
+C:\Lab\XFCustVM\XFCustVM\XFCustVM\obj\Debug\netstandard2.0\XFCustVM.AssemblyInfoInputs.cache
+C:\Lab\XFCustVM\XFCustVM\XFCustVM\obj\Debug\netstandard2.0\XFCustVM.AssemblyInfo.cs

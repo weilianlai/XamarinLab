@@ -1,0 +1,16 @@
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\bin\Debug\XFCodeBehind.dll
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\bin\Debug\XFCodeBehind.pdb
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\bin\Debug\Xamarin.Forms.Core.dll
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\bin\Debug\Xamarin.Forms.Core.xml
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\obj\Debug\XFCodeBehind.csprojResolveAssemblyReference.cache
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\obj\Debug\XFCodeBehind.csproj.CoreCompileInputs.cache
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\obj\Debug\XFCodeBehind.MainPage.xaml.g.cs
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\obj\Debug\XFCodeBehind.App.xaml.g.cs
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\obj\Debug\XFCodeBehind.dll
+C:\Lab\XFCodeBehind\XFCodeBehind\XFCodeBehind\obj\Debug\XFCodeBehind.pdb

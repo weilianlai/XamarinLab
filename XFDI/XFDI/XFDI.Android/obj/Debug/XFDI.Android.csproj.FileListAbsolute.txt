@@ -1,0 +1,2 @@
+C:\Lab\XFDI\XFDI\XFDI.Android\obj\Debug\XFDI.Android.csprojResolveAssemblyReference.cache
+C:\Lab\XFDI\XFDI\XFDI.Android\obj\Debug\XFDI.Android.csproj.CoreCompileInputs.cache

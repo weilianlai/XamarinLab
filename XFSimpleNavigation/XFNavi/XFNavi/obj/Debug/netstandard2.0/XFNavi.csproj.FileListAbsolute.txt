@@ -1,0 +1,12 @@
+C:\Lab\XFNavi\XFNavi\XFNavi\bin\Debug\netstandard2.0\XFNavi.deps.json
+C:\Lab\XFNavi\XFNavi\XFNavi\bin\Debug\netstandard2.0\XFNavi.dll
+C:\Lab\XFNavi\XFNavi\XFNavi\obj\Debug\netstandard2.0\XFNavi.csprojResolveAssemblyReference.cache
+C:\Lab\XFNavi\XFNavi\XFNavi\obj\Debug\netstandard2.0\XFNavi.csproj.CoreCompileInputs.cache
+C:\Lab\XFNavi\XFNavi\XFNavi\obj\Debug\netstandard2.0\XFNavi.App.xaml.g.cs
+C:\Lab\XFNavi\XFNavi\XFNavi\obj\Debug\netstandard2.0\XFNavi.Views.MainPage.xaml.g.cs
+C:\Lab\XFNavi\XFNavi\XFNavi\obj\Debug\netstandard2.0\XFNavi.AssemblyInfoInputs.cache
+C:\Lab\XFNavi\XFNavi\XFNavi\obj\Debug\netstandard2.0\XFNavi.AssemblyInfo.cs
+C:\Lab\XFNavi\XFNavi\XFNavi\obj\Debug\netstandard2.0\XFNavi.Views.NextPage.xaml.g.cs
+C:\Lab\XFNavi\XFNavi\XFNavi\obj\Debug\netstandard2.0\XFNavi.dll
+C:\Lab\XFNavi\XFNavi\XFNavi\obj\Debug\netstandard2.0\XFNavi.pdb
+C:\Lab\XFNavi\XFNavi\XFNavi\bin\Debug\netstandard2.0\XFNavi.pdb

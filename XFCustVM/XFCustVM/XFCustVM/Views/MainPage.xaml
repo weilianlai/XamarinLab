@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFCustVM.Views.MainPage"
+             xmlns:pm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             pm:ViewModelLocator.AutowireViewModel="False"
+             Title="{Binding Title}">
+    <ContentPage.BindingContext>
+        <vm:NewMainPageViewModel/>
+    </ContentPage.BindingContext>
+
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label Text="Welcome to Xamarin Forms and Prism!" />
+        <Button x:Name="MyButton" Text="Click" Clicked="OnChanged" />
+    </StackLayout>
+
+</ContentPage>

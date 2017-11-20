@@ -1,0 +1,8 @@
+C:\Lab\XFPageEvent\XFPageEvent\XFPageEvent\bin\Debug\netstandard2.0\XFPageEvent.deps.json
+C:\Lab\XFPageEvent\XFPageEvent\XFPageEvent\bin\Debug\netstandard2.0\XFPageEvent.dll
+C:\Lab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.csprojResolveAssemblyReference.cache
+C:\Lab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.csproj.CoreCompileInputs.cache
+C:\Lab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.App.xaml.g.cs
+C:\Lab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.Views.MainPage.xaml.g.cs
+C:\Lab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.AssemblyInfoInputs.cache
+C:\Lab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.AssemblyInfo.cs

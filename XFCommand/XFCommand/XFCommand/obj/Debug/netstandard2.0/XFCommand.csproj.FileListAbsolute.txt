@@ -1,0 +1,11 @@
+C:\Lab\XFCommand\XFCommand\XFCommand\bin\Debug\netstandard2.0\XFCommand.deps.json
+C:\Lab\XFCommand\XFCommand\XFCommand\bin\Debug\netstandard2.0\XFCommand.dll
+C:\Lab\XFCommand\XFCommand\XFCommand\obj\Debug\netstandard2.0\XFCommand.csprojResolveAssemblyReference.cache
+C:\Lab\XFCommand\XFCommand\XFCommand\obj\Debug\netstandard2.0\XFCommand.csproj.CoreCompileInputs.cache
+C:\Lab\XFCommand\XFCommand\XFCommand\obj\Debug\netstandard2.0\XFCommand.App.xaml.g.cs
+C:\Lab\XFCommand\XFCommand\XFCommand\obj\Debug\netstandard2.0\XFCommand.Views.MainPage.xaml.g.cs
+C:\Lab\XFCommand\XFCommand\XFCommand\obj\Debug\netstandard2.0\XFCommand.AssemblyInfoInputs.cache
+C:\Lab\XFCommand\XFCommand\XFCommand\obj\Debug\netstandard2.0\XFCommand.AssemblyInfo.cs
+C:\Lab\XFCommand\XFCommand\XFCommand\bin\Debug\netstandard2.0\XFCommand.pdb
+C:\Lab\XFCommand\XFCommand\XFCommand\obj\Debug\netstandard2.0\XFCommand.dll
+C:\Lab\XFCommand\XFCommand\XFCommand\obj\Debug\netstandard2.0\XFCommand.pdb

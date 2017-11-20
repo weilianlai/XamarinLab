@@ -1,0 +1,4 @@
+XFNativeAndroid.MainActivity, XFNativeAndroid;md5323b518886fbf3c6f3eac5a3f374dd9f.MainActivity
+XFNativeAndroid.MainActivity, XFNativeAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5323b518886fbf3c6f3eac5a3f374dd9f.MainActivity
+XFNativeAndroid.MainActivity;md5323b518886fbf3c6f3eac5a3f374dd9f.MainActivity
+xfnativeandroid.MainActivity;md5323b518886fbf3c6f3eac5a3f374dd9f.MainActivity

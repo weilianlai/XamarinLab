@@ -1,0 +1,7 @@
+C:\Lab\XFCanExecute\XFCanExecute\XFCanExecute\obj\Debug\netstandard2.0\XFCanExecute.csprojResolveAssemblyReference.cache
+C:\Lab\XFCanExecute\XFCanExecute\XFCanExecute\obj\Debug\netstandard2.0\XFCanExecute.csproj.CoreCompileInputs.cache
+C:\Lab\XFCanExecute\XFCanExecute\XFCanExecute\obj\Debug\netstandard2.0\XFCanExecute.App.xaml.g.cs
+C:\Lab\XFCanExecute\XFCanExecute\XFCanExecute\obj\Debug\netstandard2.0\XFCanExecute.Views.MainPage.xaml.g.cs
+C:\Lab\XFCanExecute\XFCanExecute\XFCanExecute\obj\Debug\netstandard2.0\XFCanExecute.AssemblyInfoInputs.cache
+C:\Lab\XFCanExecute\XFCanExecute\XFCanExecute\obj\Debug\netstandard2.0\XFCanExecute.AssemblyInfo.cs
+C:\Lab\XFCanExecute\XFCanExecute\XFCanExecute\obj\Debug\netstandard2.0\XFCanExecute.Views.PrismContentPage1.xaml.g.cs

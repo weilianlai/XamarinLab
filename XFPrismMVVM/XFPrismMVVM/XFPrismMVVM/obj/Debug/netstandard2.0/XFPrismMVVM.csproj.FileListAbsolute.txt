@@ -1,0 +1,11 @@
+C:\Lab\XFPrismMVVM\XFPrismMVVM\XFPrismMVVM\bin\Debug\netstandard2.0\XFPrismMVVM.deps.json
+C:\Lab\XFPrismMVVM\XFPrismMVVM\XFPrismMVVM\bin\Debug\netstandard2.0\XFPrismMVVM.dll
+C:\Lab\XFPrismMVVM\XFPrismMVVM\XFPrismMVVM\obj\Debug\netstandard2.0\XFPrismMVVM.csprojResolveAssemblyReference.cache
+C:\Lab\XFPrismMVVM\XFPrismMVVM\XFPrismMVVM\obj\Debug\netstandard2.0\XFPrismMVVM.csproj.CoreCompileInputs.cache
+C:\Lab\XFPrismMVVM\XFPrismMVVM\XFPrismMVVM\obj\Debug\netstandard2.0\XFPrismMVVM.App.xaml.g.cs
+C:\Lab\XFPrismMVVM\XFPrismMVVM\XFPrismMVVM\obj\Debug\netstandard2.0\XFPrismMVVM.Views.MainPage.xaml.g.cs
+C:\Lab\XFPrismMVVM\XFPrismMVVM\XFPrismMVVM\obj\Debug\netstandard2.0\XFPrismMVVM.AssemblyInfoInputs.cache
+C:\Lab\XFPrismMVVM\XFPrismMVVM\XFPrismMVVM\obj\Debug\netstandard2.0\XFPrismMVVM.AssemblyInfo.cs
+C:\Lab\XFPrismMVVM\XFPrismMVVM\XFPrismMVVM\bin\Debug\netstandard2.0\XFPrismMVVM.pdb
+C:\Lab\XFPrismMVVM\XFPrismMVVM\XFPrismMVVM\obj\Debug\netstandard2.0\XFPrismMVVM.dll
+C:\Lab\XFPrismMVVM\XFPrismMVVM\XFPrismMVVM\obj\Debug\netstandard2.0\XFPrismMVVM.pdb
