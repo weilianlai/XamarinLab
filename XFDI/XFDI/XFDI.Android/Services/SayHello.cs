@@ -10,14 +10,18 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using XFDI.Interfaces;
+using XFDI.Droid.Services;
+
+[assembly: Xamarin.Forms.Dependency(typeof(SayHello))]
 
 namespace XFDI.Droid.Services
 {
-    class SayHello: ISayHello
+    public class SayHello : ISayHello
     {
         public string Hello()
         {
-            return "I am Android";
+            //return "I am Android";
+            return Android.OS.Build.Serial;
         }
 
     }

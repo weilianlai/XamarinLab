@@ -18,3 +18,14 @@ D:\William\Documents\GitHub\Xamarin\XamarinLab\XFDI\XFDI\XFDI\bin\Debug\netstand
 D:\William\Documents\GitHub\Xamarin\XamarinLab\XFDI\XFDI\XFDI\bin\Debug\netstandard2.0\XFDI.pdb
 D:\William\Documents\GitHub\Xamarin\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0\XFDI.AssemblyInfoInputs.cache
 D:\William\Documents\GitHub\Xamarin\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0\XFDI.AssemblyInfo.cs
+C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\bin\Debug\netstandard2.0\XFDI.deps.json
+C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\bin\Debug\netstandard2.0\XFDI.dll
+C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\bin\Debug\netstandard2.0\XFDI.pdb
+C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0\XFDI.csprojResolveAssemblyReference.cache
+C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0\XFDI.csproj.CoreCompileInputs.cache
+C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0\XFDI.App.xaml.g.cs
+C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0\XFDI.Views.MainPage.xaml.g.cs
+C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0\XFDI.AssemblyInfoInputs.cache
+C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0\XFDI.AssemblyInfo.cs
+C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0\XFDI.dll
+C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0\XFDI.pdb

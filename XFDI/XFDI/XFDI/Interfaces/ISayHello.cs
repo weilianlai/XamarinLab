@@ -4,7 +4,7 @@ using System.Text;
 
 namespace XFDI.Interfaces
 {
- public   interface ISayHello
+    public interface ISayHello
     {
         string Hello();
     }

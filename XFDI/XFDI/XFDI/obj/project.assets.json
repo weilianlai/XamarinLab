@@ -1255,7 +1255,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\H149\\.nuget\\packages\\": {},
+    "C:\\Users\\William\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -1264,17 +1264,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFDI\\XFDI\\XFDI\\XFDI.csproj",
+      "projectUniqueName": "C:\\Users\\William\\Source\\Repos\\XamarinLab\\XFDI\\XFDI\\XFDI\\XFDI.csproj",
       "projectName": "XFDI",
-      "projectPath": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFDI\\XFDI\\XFDI\\XFDI.csproj",
-      "packagesPath": "C:\\Users\\H149\\.nuget\\packages\\",
-      "outputPath": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFDI\\XFDI\\XFDI\\obj\\",
+      "projectPath": "C:\\Users\\William\\Source\\Repos\\XamarinLab\\XFDI\\XFDI\\XFDI\\XFDI.csproj",
+      "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\William\\Source\\Repos\\XamarinLab\\XFDI\\XFDI\\XFDI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\H149\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1282,7 +1282,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://ths-dev.nttp3.ths.com.tw:8088/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

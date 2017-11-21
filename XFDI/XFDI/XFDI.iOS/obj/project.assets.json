@@ -5658,20 +5658,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\H149\\.nuget\\packages\\": {}
+    "C:\\Users\\William\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFDI\\XFDI\\XFDI.iOS\\XFDI.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\William\\Source\\Repos\\XamarinLab\\XFDI\\XFDI\\XFDI.iOS\\XFDI.iOS.csproj",
       "projectName": "XFDI.iOS",
-      "projectPath": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFDI\\XFDI\\XFDI.iOS\\XFDI.iOS.csproj",
-      "packagesPath": "C:\\Users\\H149\\.nuget\\packages\\",
-      "outputPath": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFDI\\XFDI\\XFDI.iOS\\obj\\",
+      "projectPath": "C:\\Users\\William\\Source\\Repos\\XamarinLab\\XFDI\\XFDI\\XFDI.iOS\\XFDI.iOS.csproj",
+      "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\William\\Source\\Repos\\XamarinLab\\XFDI\\XFDI\\XFDI.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\H149\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5679,14 +5679,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://ths-dev.nttp3.ths.com.tw:8088/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFDI\\XFDI\\XFDI\\XFDI.csproj": {
-              "projectPath": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFDI\\XFDI\\XFDI\\XFDI.csproj"
+            "C:\\Users\\William\\Source\\Repos\\XamarinLab\\XFDI\\XFDI\\XFDI\\XFDI.csproj": {
+              "projectPath": "C:\\Users\\William\\Source\\Repos\\XamarinLab\\XFDI\\XFDI\\XFDI\\XFDI.csproj"
             }
           }
         }
