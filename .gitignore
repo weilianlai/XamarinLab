@@ -286,3 +286,15 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+/XFCanExcute2/.vs
+/XFCanExecute/.vs
+/XFCodeBehind/.vs
+/XFCommand/.vs
+/XFCustVM/.vs
+/XFDI/.vs
+/XFNativeAndroid/.vs
+/XFNavi/.vs
+/XFNaviPara/.vs
+/XFPageEvent/.vs
+/XFPrismMVVM/.vs
+/XFSimpleNavigation/.vs
