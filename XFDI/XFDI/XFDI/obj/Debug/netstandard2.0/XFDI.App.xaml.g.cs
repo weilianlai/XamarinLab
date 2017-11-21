@@ -11,7 +11,7 @@
 namespace XFDI {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Lab\\XFDI\\XFDI\\XFDI\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFDI\\XFDI\\XFDI\\App.xaml")]
     public partial class App : global::Prism.Unity.PrismApplication {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
