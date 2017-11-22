@@ -14,11 +14,21 @@ namespace XFAppFlow.ViewModels
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
+
+        public DelegateCommand LoginButtonCommand { get; set; }
+
         private readonly INavigationService _navigationService;
 
         public MainPageViewModel(INavigationService navigationService)
         {
             _navigationService = navigationService;
+
+            LoginButtonCommand = new DelegateCommand(() => 
+            {
+                _navigationService.NavigateAsync("MyPage");
+
+            }
+            );
 
         }
 
