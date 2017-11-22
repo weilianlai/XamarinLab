@@ -29,3 +29,4 @@ C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0
 C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0\XFDI.AssemblyInfo.cs
 C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0\XFDI.dll
 C:\Users\William\Source\Repos\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0\XFDI.pdb
+D:\William\Documents\GitHub\Xamarin\XamarinLab\XFDI\XFDI\XFDI\obj\Debug\netstandard2.0\XFDI.csprojResolveAssemblyReference.cache
