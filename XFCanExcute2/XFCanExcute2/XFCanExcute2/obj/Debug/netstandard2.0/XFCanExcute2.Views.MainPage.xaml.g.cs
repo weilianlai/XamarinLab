@@ -11,7 +11,8 @@
 namespace XFCanExcute2.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Lab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2\\Views\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFCanExcute2\\XFCanExcute2\\XFCanExc" +
+        "ute2\\Views\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

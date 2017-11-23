@@ -1197,7 +1197,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\H149\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -1206,17 +1206,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Lab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2.csproj",
+      "projectUniqueName": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2.csproj",
       "projectName": "XFCanExcute2",
-      "projectPath": "C:\\Lab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Lab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2\\obj\\",
+      "projectPath": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2.csproj",
+      "packagesPath": "C:\\Users\\H149\\.nuget\\packages\\",
+      "outputPath": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\H149\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1224,6 +1224,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://ths-dev.nttp3.ths.com.tw:8088/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

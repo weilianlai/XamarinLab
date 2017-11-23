@@ -11,6 +11,7 @@
         <Label Text="{Binding MyLabel}" />
         <Button Command="{Binding LoginCommand}"
             Text="login" />
+        
     </StackLayout>
 
 </ContentPage>

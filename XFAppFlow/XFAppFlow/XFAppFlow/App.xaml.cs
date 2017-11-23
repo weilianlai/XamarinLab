@@ -23,7 +23,7 @@ namespace XFAppFlow
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            await NavigationService.NavigateAsync("MainPage");
         }
 
         protected override void RegisterTypes()
@@ -35,6 +35,8 @@ namespace XFAppFlow
             Container.RegisterTypeForNavigation<SetupPage>();
             Container.RegisterTypeForNavigation<NaviPreferPage>();
             Container.RegisterTypeForNavigation<ThemePage>();
+            Container.RegisterTypeForNavigation<MenuPage>();
+            Container.RegisterTypeForNavigation<NaviPage>();
         }
     }
 }
