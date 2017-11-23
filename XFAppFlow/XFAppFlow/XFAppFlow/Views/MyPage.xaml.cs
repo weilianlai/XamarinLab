@@ -2,7 +2,7 @@
 
 namespace XFAppFlow.Views
 {
-    public partial class MyPage : MasterDetailPage
+    public partial class MyPage : ContentPage
     {
         public MyPage()
         {

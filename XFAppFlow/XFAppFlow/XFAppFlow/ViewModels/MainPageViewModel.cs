@@ -5,7 +5,6 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using System.Text;
 
 namespace XFAppFlow.ViewModels
 {
@@ -14,19 +13,18 @@ namespace XFAppFlow.ViewModels
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
-
-        public DelegateCommand LoginButtonCommand { get; set; }
-
         private readonly INavigationService _navigationService;
+
+
+        public DelegateCommand LoginCommand { get; set; }
+
 
         public MainPageViewModel(INavigationService navigationService)
         {
             _navigationService = navigationService;
-
-            LoginButtonCommand = new DelegateCommand(() => 
+            LoginCommand = new DelegateCommand(()=> 
             {
                 _navigationService.NavigateAsync("MyPage");
-
             }
             );
 
