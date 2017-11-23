@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<NavigationPage xmlns="http://xamarin.com/schemas/2014/forms"
-                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
-                prism:ViewModelLocator.AutowireViewModel="True"
-                x:Class="XFAppFlow.Views.ThemePage">
-  
-</NavigationPage>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="XFAppFlow.Views.ThemePage"
+             BackgroundColor="Khaki"
+             Title="主題佈景">
+    
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Button
+            Text="回首頁"
+            Command="{Binding BackHomeCommand}"/>
+    </StackLayout>
+
+</ContentPage>

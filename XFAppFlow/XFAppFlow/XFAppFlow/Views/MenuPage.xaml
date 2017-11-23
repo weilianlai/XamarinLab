@@ -9,9 +9,9 @@
         <ContentPage Title="Menu">
             <StackLayout Padding="20">
                 <!-- TODO: // Update the Layout and add some real menu items  -->
-                <Button Text="首頁" Command="{Binding HomeCommand}"  />
+                <Button Text="我的首頁" Command="{Binding HomeCommand}"  />
                 <Button Text="個人資訊" Command="{Binding PersonalInfoCommand}"  />
-                <Button Text="主題佈景" Command="{Binding ThemeCommand}"  />
+                <Button Text="系統設定" Command="{Binding SetupCommand}"  />
                 <Button Text="登出" Command="{Binding LogoutCommand}"  />
             </StackLayout>
         </ContentPage>

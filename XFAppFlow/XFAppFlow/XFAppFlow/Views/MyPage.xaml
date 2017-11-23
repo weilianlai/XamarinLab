@@ -5,7 +5,7 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="XFAppFlow.Views.MyPage"
              BackgroundColor="LightYellow"
-             Title="個人資訊">
+             Title="我的首頁">
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
         <Label
             Text="This is My Page"/>

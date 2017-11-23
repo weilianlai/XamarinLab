@@ -14,10 +14,18 @@ namespace XFAppFlow.ViewModels
         public event PropertyChangedEventHandler PropertyChanged;
 
         private readonly INavigationService _navigationService;
+        public DelegateCommand ThemeCommand { get; set; }
 
         public NaviPreferPageViewModel(INavigationService navigationService)
         {
             _navigationService = navigationService;
+            ThemeCommand = new DelegateCommand(async () =>
+            {
+                var foopara = new NavigationParameters();
+                foopara.Add("Data", "Come from NaviPage");
+                await _navigationService.NavigateAsync("ThemePage", foopara);
+            }
+            );
 
         }
 

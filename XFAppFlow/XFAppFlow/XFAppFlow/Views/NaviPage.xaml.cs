@@ -2,9 +2,9 @@
 
 namespace XFAppFlow.Views
 {
-    public partial class ThemePage : ContentPage
+    public partial class NaviPage : NavigationPage
     {
-        public ThemePage()
+        public NaviPage()
         {
             InitializeComponent();
         }

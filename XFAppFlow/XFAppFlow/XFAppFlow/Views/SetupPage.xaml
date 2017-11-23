@@ -3,6 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="XFAppFlow.Views.SetupPage">
-  
+             x:Class="XFAppFlow.Views.SetupPage"
+             BackgroundColor="Navy"
+             Title="系統設定">
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Button
+            Text="運行偏好" Command="{Binding NaviPreferCommand}"/>
+    </StackLayout>
+
 </ContentPage>

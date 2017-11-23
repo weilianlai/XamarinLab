@@ -9,24 +9,14 @@ using System.Linq;
 namespace XFAppFlow.ViewModels
 {
 
-    public class MainPageViewModel : INotifyPropertyChanged, INavigationAware
+    public class NaviPageViewModel : INotifyPropertyChanged, INavigationAware
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
         private readonly INavigationService _navigationService;
 
-
-        public DelegateCommand LoginCommand { get; set; }
-
-
-        public MainPageViewModel(INavigationService navigationService)
+        public NaviPageViewModel(INavigationService navigationService)
         {
-            _navigationService = navigationService;
-            LoginCommand = new DelegateCommand(async ()=> 
-            {
-                await _navigationService.NavigateAsync("xf:///MenuPage/NaviPage/MyPage");
-            }
-            );
 
         }
 
@@ -42,6 +32,10 @@ namespace XFAppFlow.ViewModels
 
         public void OnNavigatedTo(NavigationParameters parameters)
         {
+            //if (parameters.ContainsKey("Data"))
+            //{
+            //    PagePara = parameters["Data"] as string;
+            //}
 
         }
 

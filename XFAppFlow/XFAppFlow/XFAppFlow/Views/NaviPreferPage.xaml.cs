@@ -2,7 +2,7 @@
 
 namespace XFAppFlow.Views
 {
-    public partial class NaviPreferPage : NavigationPage
+    public partial class NaviPreferPage : ContentPage
     {
         public NaviPreferPage()
         {
