@@ -3954,20 +3954,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\H149\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Lab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2.Android\\XFCanExcute2.Android.csproj",
+      "projectUniqueName": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2.Android\\XFCanExcute2.Android.csproj",
       "projectName": "XFCanExcute2.Android",
-      "projectPath": "C:\\Lab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2.Android\\XFCanExcute2.Android.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Lab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2.Android\\obj\\",
+      "projectPath": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2.Android\\XFCanExcute2.Android.csproj",
+      "packagesPath": "C:\\Users\\H149\\.nuget\\packages\\",
+      "outputPath": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\H149\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3975,13 +3975,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://ths-dev.nttp3.ths.com.tw:8088/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid80": {
           "projectReferences": {
-            "C:\\Lab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2.csproj": {
-              "projectPath": "C:\\Lab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2.csproj"
+            "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2.csproj": {
+              "projectPath": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2\\XFCanExcute2.csproj"
             }
           }
         }
