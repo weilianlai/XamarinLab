@@ -5658,20 +5658,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\H149\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Lab\\XFPageEvent\\XFPageEvent\\XFPageEvent.iOS\\XFPageEvent.iOS.csproj",
+      "projectUniqueName": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFPageEvent\\XFPageEvent\\XFPageEvent.iOS\\XFPageEvent.iOS.csproj",
       "projectName": "XFPageEvent.iOS",
-      "projectPath": "C:\\Lab\\XFPageEvent\\XFPageEvent\\XFPageEvent.iOS\\XFPageEvent.iOS.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Lab\\XFPageEvent\\XFPageEvent\\XFPageEvent.iOS\\obj\\",
+      "projectPath": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFPageEvent\\XFPageEvent\\XFPageEvent.iOS\\XFPageEvent.iOS.csproj",
+      "packagesPath": "C:\\Users\\H149\\.nuget\\packages\\",
+      "outputPath": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFPageEvent\\XFPageEvent\\XFPageEvent.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\H149\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5679,13 +5679,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://ths-dev.nttp3.ths.com.tw:8088/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Lab\\XFPageEvent\\XFPageEvent\\XFPageEvent\\XFPageEvent.csproj": {
-              "projectPath": "C:\\Lab\\XFPageEvent\\XFPageEvent\\XFPageEvent\\XFPageEvent.csproj"
+            "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFPageEvent\\XFPageEvent\\XFPageEvent\\XFPageEvent.csproj": {
+              "projectPath": "D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFPageEvent\\XFPageEvent\\XFPageEvent\\XFPageEvent.csproj"
             }
           }
         }

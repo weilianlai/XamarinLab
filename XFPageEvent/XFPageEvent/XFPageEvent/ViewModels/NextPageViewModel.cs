@@ -1,10 +1,12 @@
 ﻿using Prism.Commands;
+using Prism.Events;
 using Prism.Mvvm;
 using Prism.Navigation;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using XFPageEvent.Events;
 
 namespace XFPageEvent.ViewModels
 {
@@ -13,21 +15,25 @@ namespace XFPageEvent.ViewModels
     public class NextPageViewModel : INotifyPropertyChanged, INavigationAware
     {
         public event PropertyChangedEventHandler PropertyChanged;
-        public string MyEntry { get; set; }
-
-        public DelegateCommand GoBackCommand { get; set; }
-
         private readonly INavigationService _navigationService;
+        private readonly IEventAggregator _eventAggregator;
+        public string MyEntry { get; set; }
+        public DelegateCommand PublishCommand { get; set; }
 
-        public NextPageViewModel(INavigationService navigationService)
+        public NextPageViewModel(INavigationService navigationService, 
+            IEventAggregator eventAggregator)
         {
             _navigationService = navigationService;
-            GoBackCommand = new DelegateCommand(()=> 
+            _eventAggregator = eventAggregator;
+
+            PublishCommand = new DelegateCommand(() =>
             {
-
-            }
-            );
-
+                _eventAggregator.GetEvent<EchoEvent>()
+                .Publish(new EchoPayload()
+                {
+                    Message = MyEntry,
+                });
+            });
         }
 
         public void OnNavigatedFrom(NavigationParameters parameters)
@@ -46,5 +52,5 @@ namespace XFPageEvent.ViewModels
         }
 
     }
-
 }
+

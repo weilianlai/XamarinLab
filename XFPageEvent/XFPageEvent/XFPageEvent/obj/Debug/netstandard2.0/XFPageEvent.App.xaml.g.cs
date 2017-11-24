@@ -11,7 +11,8 @@
 namespace XFPageEvent {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Lab\\XFPageEvent\\XFPageEvent\\XFPageEvent\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFPageEvent\\XFPageEvent\\XFPageEven" +
+        "t\\App.xaml")]
     public partial class App : global::Prism.Unity.PrismApplication {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

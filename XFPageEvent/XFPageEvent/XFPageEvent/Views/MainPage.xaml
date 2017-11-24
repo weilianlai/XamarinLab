@@ -7,6 +7,7 @@
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
         <Label Text="Welcome to Xamarin Forms and Prism!" />
         <Entry
+            Placeholder="請輸入密碼"
             Text="{Binding MyEntry}"/>
         <Button
             Text="Next Page" Command="{Binding GoNextCommand}"/>

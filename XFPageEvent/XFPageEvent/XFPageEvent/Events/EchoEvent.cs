@@ -6,14 +6,15 @@ using System.Text;
 namespace XFPageEvent.Events
 {
 
-    public class EchoEvent : PubSubEvent<EchoEventPayload>
+    public class EchoEvent : PubSubEvent<EchoPayload>
     {
 
     }
 
-    public class EchoEventPayload
+    public class EchoPayload
     {
         public string Message { get; set; }
     }
+
 
 }
