@@ -5,8 +5,6 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using System.Text;
-using XFEADeviceID.Interfaces;
 
 namespace XFEADeviceID.ViewModels
 {
@@ -15,21 +13,21 @@ namespace XFEADeviceID.ViewModels
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public string Title { get; set; }
-        public string DeviceID { get; set; }
-        public string DispalyID { get; set; }
-
-        IGetDeviceID _getDeviceID;
-
         private readonly INavigationService _navigationService;
 
-        public MainPageViewModel(INavigationService navigationService, IGetDeviceID deviceID)
+        public string DeviceID { get; set; }
+
+        public DelegateCommand GetDeviceIDCommand { get; set; }
+
+
+        public MainPageViewModel(INavigationService navigationService)
         {
             _navigationService = navigationService;
-            _getDeviceID = deviceID;
-            DispalyID = _getDeviceID.GetDeviceID();
-            Title = "取得手機裝置唯一ID";
-            DeviceID = "此手機裝置唯一的設備ID是：";
+            GetDeviceIDCommand = new DelegateCommand(()=> 
+            {
+                DeviceID = "123";
+            });
+
         }
 
         public void OnNavigatedFrom(NavigationParameters parameters)

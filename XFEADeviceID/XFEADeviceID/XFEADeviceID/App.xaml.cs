@@ -30,6 +30,7 @@ namespace XFEADeviceID
         {
             Container.RegisterTypeForNavigation<NavigationPage>();
             Container.RegisterTypeForNavigation<MainPage>();
+            Container.RegisterTypeForNavigation<MainPage>();
         }
     }
 }
