@@ -24,9 +24,9 @@ namespace XFAppFlow.ViewModels
             _navigationService = navigationService;
             BackHomeCommand = new DelegateCommand(async()=> 
             {
-                var fooPara = new NavigationParameters();
-                fooPara.Add("Data", "Come from ThemePage");
-                await _navigationService.NavigateAsync("xf:///MenuPage/NaviPage/MyPage", fooPara);
+                var fooPara = new NavigationParameters();   
+                fooPara.Add("Data", "NaviPreferPage");
+                await _navigationService.NavigateAsync("xf:///MenuPage/NaviPage/SetupPage", fooPara);
             }
             );
 

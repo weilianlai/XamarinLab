@@ -15,7 +15,7 @@ namespace XFAppFlow.ViewModels
 
         public DelegateCommand HomeCommand { get; set; }
         public DelegateCommand PersonalInfoCommand { get; set; }
-        public DelegateCommand SetupCommand { get; set; }
+        public DelegateCommand ThemeCommand { get; set; }
         public DelegateCommand LogoutCommand { get; set; }
 
 
@@ -34,9 +34,9 @@ namespace XFAppFlow.ViewModels
                 _navigationService.NavigateAsync("xf:///MenuPage/NaviPage/PersonalInfoPage");
             }
             );
-            SetupCommand = new DelegateCommand(() =>
+            ThemeCommand = new DelegateCommand(() =>
             {
-                _navigationService.NavigateAsync("xf:///MenuPage/NaviPage/SetupPage");
+                 _navigationService.NavigateAsync("NaviPage/SetupPage/NaviPreferPage/ThemePage");
             }
             );
             LogoutCommand = new DelegateCommand(() =>

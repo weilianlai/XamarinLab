@@ -11,7 +11,7 @@
                 <!-- TODO: // Update the Layout and add some real menu items  -->
                 <Button Text="我的首頁" Command="{Binding HomeCommand}"  />
                 <Button Text="個人資訊" Command="{Binding PersonalInfoCommand}"  />
-                <Button Text="系統設定" Command="{Binding SetupCommand}"  />
+                <Button Text="主題背景" Command="{Binding ThemeCommand}"  />
                 <Button Text="登出" Command="{Binding LogoutCommand}"  />
             </StackLayout>
         </ContentPage>
