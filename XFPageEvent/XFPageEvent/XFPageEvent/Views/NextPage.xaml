@@ -6,11 +6,12 @@
              Title="第二頁"
              x:Class="XFPageEvent.Views.NextPage">
 
-    <StackLayout>
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
         <Entry
+            Placeholder="請輸入密碼"
             Text="{Binding MyEntry}"/>
         <Button
-            Text="GoBack" Command="GoBackCommand"/>
+            Text="Publish" Command="{Binding PublishCommand}"/>
 
     </StackLayout>
 

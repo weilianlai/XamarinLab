@@ -6,3 +6,15 @@ C:\Lab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.
 C:\Lab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.Views.MainPage.xaml.g.cs
 C:\Lab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.AssemblyInfoInputs.cache
 C:\Lab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.AssemblyInfo.cs
+D:\William\Documents\GitHub\Xamarin\XamarinLab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.csprojResolveAssemblyReference.cache
+D:\William\Documents\GitHub\Xamarin\XamarinLab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.csproj.CoreCompileInputs.cache
+D:\William\Documents\GitHub\Xamarin\XamarinLab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.App.xaml.g.cs
+D:\William\Documents\GitHub\Xamarin\XamarinLab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.Views.MainPage.xaml.g.cs
+D:\William\Documents\GitHub\Xamarin\XamarinLab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.Views.NextPage.xaml.g.cs
+D:\William\Documents\GitHub\Xamarin\XamarinLab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.AssemblyInfoInputs.cache
+D:\William\Documents\GitHub\Xamarin\XamarinLab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.AssemblyInfo.cs
+D:\William\Documents\GitHub\Xamarin\XamarinLab\XFPageEvent\XFPageEvent\XFPageEvent\bin\Debug\netstandard2.0\XFPageEvent.deps.json
+D:\William\Documents\GitHub\Xamarin\XamarinLab\XFPageEvent\XFPageEvent\XFPageEvent\bin\Debug\netstandard2.0\XFPageEvent.dll
+D:\William\Documents\GitHub\Xamarin\XamarinLab\XFPageEvent\XFPageEvent\XFPageEvent\bin\Debug\netstandard2.0\XFPageEvent.pdb
+D:\William\Documents\GitHub\Xamarin\XamarinLab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.dll
+D:\William\Documents\GitHub\Xamarin\XamarinLab\XFPageEvent\XFPageEvent\XFPageEvent\obj\Debug\netstandard2.0\XFPageEvent.pdb

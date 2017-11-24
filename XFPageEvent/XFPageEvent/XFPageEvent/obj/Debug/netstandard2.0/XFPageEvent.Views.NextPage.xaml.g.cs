@@ -11,7 +11,8 @@
 namespace XFPageEvent.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Lab\\XFPageEvent\\XFPageEvent\\XFPageEvent\\Views\\NextPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\William\\Documents\\GitHub\\Xamarin\\XamarinLab\\XFPageEvent\\XFPageEvent\\XFPageEven" +
+        "t\\Views\\NextPage.xaml")]
     public partial class NextPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using XFPageEvent.Events;
 
 namespace XFPageEvent.ViewModels
 {
@@ -26,16 +27,17 @@ namespace XFPageEvent.ViewModels
             IEventAggregator eventAggregator)
         {
             _navigationService = navigationService;
-
             _eventAggregator = eventAggregator;
 
             GoNextCommand = new DelegateCommand(()=> 
             {
+                _navigationService.NavigateAsync("NextPage");
+            });
 
-            }
-            );
-
-            _eventAggregator.GetEvent
+            _eventAggregator.GetEvent<EchoEvent>().Subscribe(x=> 
+            {
+                MyEntry = $"知道了：{x.Message}"; 
+            });
 
         }
 

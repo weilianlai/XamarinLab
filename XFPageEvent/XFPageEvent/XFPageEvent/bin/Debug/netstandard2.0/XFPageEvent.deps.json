@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "e6fb568f54dbe8afbf340abbd702e8d7aa5525da"
+    "signature": "53404afc2b1bfda38818ca73e801ecb2b2e56ece"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.0",
           "Prism.Unity.Forms": "7.0.0.168-pre",
+          "PropertyChanged.Fody": "2.1.4",
           "Xamarin.Forms": "2.4.0.282"
         },
         "runtime": {
@@ -22,6 +23,7 @@
           "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
         }
       },
+      "Fody/2.0.0": {},
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "NETStandard.Library/2.0.0": {
@@ -56,6 +58,14 @@
         },
         "runtime": {
           "lib/netstandard1.0/Prism.Unity.Forms.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/2.1.4": {
+        "dependencies": {
+          "Fody": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/PropertyChanged.dll": {}
         }
       },
       "System.Globalization/4.3.0": {
@@ -151,6 +161,13 @@
       "path": "commonservicelocator/1.3.0",
       "hashPath": "commonservicelocator.1.3.0.nupkg.sha512"
     },
+    "Fody/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-16DA2tPaBXpzIZVtIRgDbB/rh7LgaEYeEY0F+CD8gMtvWMLiXnyFZyntt0NrxUpTEDGx1yqnEkWEcdfi79wW9g==",
+      "path": "fody/2.0.0",
+      "hashPath": "fody.2.0.0.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -192,6 +209,13 @@
       "sha512": "sha512-zryAXqwAA4MdhiwP2yxF5cjxASEfF5RNoMJFAxYDPlyKRYviJs7wvQVItl2hQfnCZrpsYulMIbWzZpOiv4Myzg==",
       "path": "prism.unity.forms/7.0.0.168-pre",
       "hashPath": "prism.unity.forms.7.0.0.168-pre.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/2.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ng/6S2Pt282URl9nVZzXqvpjw/4DSC20ve1QRxkc6Bcg+WBHRylOog/sICBZXmA1YvydaM2E7mprim8d+TFQ4Q==",
+      "path": "propertychanged.fody/2.1.4",
+      "hashPath": "propertychanged.fody.2.1.4.nupkg.sha512"
     },
     "System.Globalization/4.3.0": {
       "type": "package",
