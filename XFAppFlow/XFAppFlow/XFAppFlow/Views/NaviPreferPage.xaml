@@ -4,7 +4,7 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="XFAppFlow.Views.NaviPreferPage"
-             BackgroundColor="BlueViolet"
+             BackgroundColor="CadetBlue"
              Title="運行偏好">
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
         <Button

@@ -4,7 +4,7 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="XFAppFlow.Views.ThemePage"
-             BackgroundColor="Khaki"
+             BackgroundColor="Orange"
              Title="主題佈景">
     
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
