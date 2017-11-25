@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFStackOption.Views.MainPage"
+             Title="{Binding Title}">
+
+    <!--<StackLayout
+        Margin="30,0,30,0"
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="Start"
+        Orientation="Horizontal">
+        
+        <Label
+            Text="文字"/>
+        <Entry 
+            Text="答案"
+            BackgroundColor="Yellow"
+            HorizontalOptions="FillAndExpand"/>
+        <Label
+            Text="文字"/>
+
+
+    </StackLayout>-->
+
+    <!--<StackLayout>
+        <Button Text="1" WidthRequest="50" HorizontalOptions="Center" />
+        <Button Text="2" WidthRequest="50"/>
+    </StackLayout>-->
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="{Binding Title}" />
+        <BoxView
+            Color="Red"
+            WidthRequest="100" 
+            HeightRequest="100"
+            />
+    </StackLayout>
+
+</ContentPage>

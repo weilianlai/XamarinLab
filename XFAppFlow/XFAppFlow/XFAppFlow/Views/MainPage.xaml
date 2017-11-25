@@ -5,9 +5,23 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="XFAppFlow.Views.MainPage"
              BackgroundColor="Purple">
-    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-        <Button
+    <Grid>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Entry
+                Text="{Binding Acc}"/>
+            <Entry
+                Text="{Binding Password}"
+                IsPassword="True"/>
+            <Button
             Text="登入" Command="{Binding LoginCommand}"/>
-    </StackLayout>
+        </StackLayout>
+    <!--</Grid>
+    
+    <Grid>-->
+        <BoxView Color="Black"
+                 Opacity="0.8"
+                 IsVisible="{Binding IsChecking}"/>
+    </Grid>
+   
 
 </ContentPage>
