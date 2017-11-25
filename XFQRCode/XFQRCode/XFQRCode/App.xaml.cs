@@ -30,6 +30,7 @@ namespace XFQRCode
         {
             Container.RegisterTypeForNavigation<NavigationPage>();
             Container.RegisterTypeForNavigation<MainPage>();
+            Container.RegisterTypeForNavigation<ScanPage>();
         }
     }
 }

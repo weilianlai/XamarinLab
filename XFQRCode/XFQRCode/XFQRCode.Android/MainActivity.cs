@@ -4,6 +4,10 @@ using Android.OS;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
 
+[assembly: UsesPermission(Android.Manifest.Permission.Flashlight)]
+[assembly: UsesPermission(Android.Manifest.Permission.Camera)]
+
+
 namespace XFQRCode.Droid
 {
     [Activity(Label = "XFQRCode", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]

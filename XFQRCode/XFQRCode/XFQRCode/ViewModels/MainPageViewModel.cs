@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using ZXing;
 
 namespace XFQRCode.ViewModels
 {
@@ -26,7 +27,7 @@ namespace XFQRCode.ViewModels
 
             ScanCommand = new DelegateCommand(() =>
             {
-                _navigationService.NavigateAsync("");
+                _navigationService.NavigateAsync("ScanPage");
             });
         }
 
@@ -37,6 +38,13 @@ namespace XFQRCode.ViewModels
 
         public void OnNavigatingTo(NavigationParameters parameters)
         {
+            if (parameters.ContainsKey("Result"))
+            {
+                var fooReslut = parameters["Result"] as Result;
+                BarcodeFormatType = fooReslut.BarcodeFormat.ToString();
+                BarcodeResult = fooReslut.Text;
+
+            }
 
         }
 
