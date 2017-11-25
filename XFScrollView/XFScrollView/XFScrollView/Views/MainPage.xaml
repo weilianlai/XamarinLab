@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFScrollView.Views.MainPage"
+             Title="{Binding Title}">
+
+    <StackLayout>
+        <ScrollView Orientation="Vertical">
+            <StackLayout>
+                <BoxView  Color="Red" HeightRequest="70"/>
+                <BoxView  Color="Red" HeightRequest="70"/>
+                <BoxView  Color="Red" HeightRequest="70"/>
+                <BoxView  Color="Red" HeightRequest="70"/>
+                <BoxView  Color="Red" HeightRequest="70"/>
+                <BoxView  Color="Red" HeightRequest="70"/>
+                <BoxView  Color="Red" HeightRequest="70"/>
+                <BoxView  Color="Red" HeightRequest="70"/>
+            </StackLayout>
+        </ScrollView>
+        
+        <ScrollView Orientation="Horizontal">
+            <StackLayout>
+                <BoxView  Color="Red" WidthRequest="70"/>
+                <BoxView  Color="Red" WidthRequest="70"/>
+                <BoxView  Color="Red" WidthRequest="70"/>
+                <BoxView  Color="Red" WidthRequest="70"/>
+                <BoxView  Color="Red" WidthRequest="70"/>
+                <BoxView  Color="Red" WidthRequest="70"/>
+                <BoxView  Color="Red" WidthRequest="70"/>
+                <BoxView  Color="Red" WidthRequest="70"/>
+
+            </StackLayout>
+        </ScrollView>
+        
+    </StackLayout>
+
+</ContentPage>
