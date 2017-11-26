@@ -30,6 +30,7 @@ namespace XFListView
         {
             Container.RegisterTypeForNavigation<NavigationPage>();
             Container.RegisterTypeForNavigation<MainPage>();
+            Container.RegisterTypeForNavigation<TaskDetailPage>();
         }
     }
 }

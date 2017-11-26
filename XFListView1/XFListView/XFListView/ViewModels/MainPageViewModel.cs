@@ -24,6 +24,9 @@ namespace XFListView.ViewModels
 
         public DelegateCommand MyTaskRefreshCommand { get; set; }
 
+        public DelegateCommand MyTaskItemSelectedCommand { get; set; }
+
+
 
         public MainPageViewModel(INavigationService navigationService)
         {
@@ -45,6 +48,14 @@ namespace XFListView.ViewModels
                     });
                 }
                 RefreshingStatus = false;
+            });
+
+            MyTaskItemSelectedCommand = new DelegateCommand(async ()=> 
+            {
+                var fooPara = new NavigationParameters();
+                fooPara.Add("Record" ,MyTaskItemSelected.Clone() );
+                await _navigationService.NavigateAsync("TaskDetailPage", fooPara);
+
             });
         }
 
