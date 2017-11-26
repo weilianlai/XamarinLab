@@ -13,6 +13,10 @@ using Xamarin.Forms.Platform.Android;
 using Xamarin.Forms;
 using Android.Graphics;
 
+[assembly: ExportRenderer(typeof(XFCustFont.CustomControls.FontAwesomeLabel), typeof(XFCustFont.Droid.Renderers.FontAwesomeLabelRenderer))]
+
+
+
 namespace XFCustFont.Droid.Renderers
 {
     public class FontAwesomeLabelRenderer : LabelRenderer
@@ -24,12 +28,12 @@ namespace XFCustFont.Droid.Renderers
             Typeface font;
             try
             {
-                font = Typeface.CreateFromAsset(Forms.Context.Assets, "FontAwesome.otf");
+                font = Typeface.CreateFromAsset(Forms.Context.Assets, "fontawesome.ttf");
                 label.Typeface = font;
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine("TTF file not found. Make sure the Android project contains it at 'FontAwesome.otf'.");
+                System.Diagnostics.Debug.WriteLine("TTF file not found. Make sure the Android project contains it at 'fontawesome.ttf'.");
             }
         }
     }

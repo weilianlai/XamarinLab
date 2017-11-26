@@ -10,20 +10,25 @@
         <Picker
             ItemsSource="{Binding Picker1Source}"
             SelectedItem="{Binding Picker1SelectedItem}">
+            
             <Picker.Behaviors>
                 <behaviro:EventToCommandBehavior
                     EventName="SelectedIndexChanged"
                     Command="{Binding Picker1Command}"/>
             </Picker.Behaviors>
+        
         </Picker>
+        
         <Picker
             ItemsSource="{Binding Picker2Source}"
             SelectedItem="{Binding Picker2SelectedItem}">
+        
             <Picker.Behaviors>
                 <behaviro:EventToCommandBehavior
                     EventName="SelectedIndexChanged"
                     Command="{Binding Picker2Command}"/>
             </Picker.Behaviors>
+        
         </Picker>
         <Label Text="{Binding Lable1}"/>
         <Label Text="{Binding Lable2}"/>
