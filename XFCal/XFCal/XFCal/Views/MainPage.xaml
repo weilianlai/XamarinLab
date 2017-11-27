@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFCal.Views.MainPage"
+             >
+
+    <Grid
+        RowSpacing="1"
+        ColumnSpacing="1"
+        BackgroundColor="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <BoxView
+            Grid.Column="0"
+            Grid.Row="0"
+            Grid.ColumnSpan="4"
+            Color="Black"
+            >
+        </BoxView>
+
+            <BoxView
+            Grid.Column="0"
+            Grid.Row="1"
+            Color="White">
+            </BoxView>
+            <BoxView
+            Grid.Column="0"
+            Grid.Row="2"
+            Color="White">
+            </BoxView>
+
+            <BoxView
+            Grid.Column="0"
+            Grid.Row="3"
+            Color="White">
+            </BoxView>
+            <BoxView
+            Grid.Column="0"
+            Grid.Row="4"
+            Grid.ColumnSpan="3"
+            Color="White">
+            </BoxView>
+            <BoxView
+            Grid.Column="0"
+            Grid.Row="5"
+            Color="Gray">
+            </BoxView>
+
+
+            <BoxView
+            Grid.Column="1"
+            Grid.Row="1"
+            Color="White">
+            </BoxView>
+            <BoxView
+            Grid.Column="1"
+            Grid.Row="2"
+            Color="White">
+            </BoxView>
+            <BoxView
+            Grid.Column="1"
+            Grid.Row="3"
+            Color="White">
+            </BoxView>
+            <BoxView
+            Grid.Column="1"
+            Grid.Row="5"
+            Grid.ColumnSpan="3"
+            Color="Orange">
+            </BoxView>
+
+
+            <BoxView
+            Grid.Column="2"
+            Grid.Row="1"
+            Color="White">
+            </BoxView>
+            <BoxView
+            Grid.Column="2"
+            Grid.Row="2"
+            Color="White">
+            </BoxView>
+            <BoxView
+            Grid.Column="2"
+            Grid.Row="3"
+            Color="White">
+            </BoxView>
+
+            <BoxView
+            Grid.Column="3"
+            Grid.Row="1"
+            Color="Orange">
+            </BoxView>
+            <BoxView
+            Grid.Column="3"
+            Grid.Row="2"
+            Color="Orange">
+            </BoxView>
+            <BoxView
+            Grid.Column="3"
+            Grid.Row="3"
+            Color="Orange">
+            </BoxView>
+            <BoxView
+            Grid.Column="3"
+            Grid.Row="4"
+            Color="Orange">
+            </BoxView>
+
+
+
+    </Grid>
+
+</ContentPage>
