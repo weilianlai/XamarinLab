@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XFCal.Views.MainPage"
-             >
+             NavigationPage.HasBackButton="False"
+             NavigationPage.HasNavigationBar="False" >
 
     <Grid
         RowSpacing="1"
@@ -28,98 +29,285 @@
             Grid.Column="0"
             Grid.Row="0"
             Grid.ColumnSpan="4"
-            Color="Black"
-            >
+            Color="Black">
         </BoxView>
+        <Label
+            Text="{Binding Result}"
+            Grid.Column="0"
+            Grid.Row="0"
+            Grid.ColumnSpan="4"
+            VerticalOptions="Center"
+            HorizontalOptions="End"
+            FontSize="40"
+            BackgroundColor="Transparent"
+            TextColor="White">
+        </Label>
 
-            <BoxView
+        <BoxView
             Grid.Column="0"
             Grid.Row="1"
             Color="White">
-            </BoxView>
-            <BoxView
+        </BoxView>
+        <Button
+            Text="7"
+            Command="{Binding SevenCommand}"
+            Grid.Column="0"
+            Grid.Row="1"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent">
+        </Button>
+        <BoxView
             Grid.Column="0"
             Grid.Row="2"
             Color="White">
-            </BoxView>
+        </BoxView>
+        <Button
+            Text="4"
+            Command="{Binding FourCommand}"
+            Grid.Column="0"
+            Grid.Row="2"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent">
+        </Button>
 
-            <BoxView
+        <BoxView
             Grid.Column="0"
             Grid.Row="3"
             Color="White">
-            </BoxView>
-            <BoxView
+        </BoxView>
+        <Button
+            Text="1"
+            Command="{Binding OneCommand}"
+            Grid.Column="0"
+            Grid.Row="3"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent">
+        </Button>
+        
+        <BoxView
             Grid.Column="0"
             Grid.Row="4"
             Grid.ColumnSpan="3"
             Color="White">
-            </BoxView>
-            <BoxView
+        </BoxView>
+        <Button
+            Text="0"
+            Command="{Binding ZeroCommand}"
+            Grid.Column="0"
+            Grid.Row="4"
+            Grid.ColumnSpan="3"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent">
+        </Button>
+        
+        <BoxView
             Grid.Column="0"
             Grid.Row="5"
             Color="Gray">
-            </BoxView>
+        </BoxView>
+        <Button
+            Text="C"
+            Command="{Binding ClearCommand}"
+            Grid.Column="0"
+            Grid.Row="5"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent"
+            TextColor="White">
+        </Button>
 
 
-            <BoxView
+        <BoxView
             Grid.Column="1"
             Grid.Row="1"
             Color="White">
-            </BoxView>
-            <BoxView
+        </BoxView>
+        <Button
+            Text="8"
+            Command="{Binding EightCommand}"
+            Grid.Column="1"
+            Grid.Row="1"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent">
+        </Button>
+        
+        <BoxView
             Grid.Column="1"
             Grid.Row="2"
             Color="White">
-            </BoxView>
-            <BoxView
+        </BoxView>
+        <Button
+            Text="5"
+            Command="{Binding FiveCommand}"
+            Grid.Column="1"
+            Grid.Row="2"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent">
+        </Button>
+        
+        <BoxView
             Grid.Column="1"
             Grid.Row="3"
             Color="White">
-            </BoxView>
-            <BoxView
+        </BoxView>
+        <Button
+            Text="2"
+            Command="{Binding TwoCommand}"
+            Grid.Column="1"
+            Grid.Row="3"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent">
+        </Button>
+        
+        <BoxView
             Grid.Column="1"
             Grid.Row="5"
             Grid.ColumnSpan="3"
             Color="Orange">
-            </BoxView>
+        </BoxView>
+        <Button
+            Text="="
+            Command="{Binding EqualCommand}"
+            Grid.Column="1"
+            Grid.Row="5"
+            Grid.ColumnSpan="3"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent"
+            TextColor="White">
+        </Button>
 
-
-            <BoxView
+        <BoxView
             Grid.Column="2"
             Grid.Row="1"
             Color="White">
-            </BoxView>
-            <BoxView
+        </BoxView>
+        <Button
+            Text="9"
+            Command="{Binding NineCommand}"
+            Grid.Column="2"
+            Grid.Row="1"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent">
+        </Button>
+        
+        <BoxView
             Grid.Column="2"
             Grid.Row="2"
             Color="White">
-            </BoxView>
-            <BoxView
+        </BoxView>
+        <Button
+            Text="6"
+            Command="{Binding SixCommand}"
+            Grid.Column="2"
+            Grid.Row="2"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent">
+        </Button>
+        
+        <BoxView
             Grid.Column="2"
             Grid.Row="3"
             Color="White">
-            </BoxView>
+        </BoxView>
+        <Button
+            Text="3"
+            Command="{Binding ThreeCommand}"
+            Grid.Column="2"
+            Grid.Row="3"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent">
+        </Button>
 
-            <BoxView
+        <BoxView
             Grid.Column="3"
             Grid.Row="1"
             Color="Orange">
-            </BoxView>
-            <BoxView
+        </BoxView>
+        <Button
+            Text="/"
+            Command="{Binding DivideCommand}"
+            Grid.Column="3"
+            Grid.Row="1"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent"
+            TextColor="White">
+        </Button>
+        
+        <BoxView
             Grid.Column="3"
             Grid.Row="2"
             Color="Orange">
-            </BoxView>
-            <BoxView
+        </BoxView>
+        <Button
+            Text="X"
+            Command="{Binding MultipleCommand}"
+            Grid.Column="3"
+            Grid.Row="2"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="35"
+            BackgroundColor="Transparent"
+            TextColor="White">
+        </Button>
+        
+        <BoxView
             Grid.Column="3"
             Grid.Row="3"
             Color="Orange">
-            </BoxView>
-            <BoxView
+        </BoxView>
+        <Button
+            Text="-"
+            Command="{Binding MinusCommand}"
+            Grid.Column="3"
+            Grid.Row="3"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent"
+            TextColor="White">
+        </Button>
+        
+        <BoxView
             Grid.Column="3"
             Grid.Row="4"
             Color="Orange">
-            </BoxView>
+        </BoxView>
+        <Button
+            Text="+"
+            Command="{Binding PlusCommand}"
+            Grid.Column="3"
+            Grid.Row="4"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="40"
+            BackgroundColor="Transparent"
+            TextColor="White">
+        </Button>
 
 
 
