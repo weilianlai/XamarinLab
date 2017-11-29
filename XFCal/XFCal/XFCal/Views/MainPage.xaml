@@ -32,6 +32,16 @@
             Color="Black">
         </BoxView>
         <Label
+            Grid.Column="0"
+            Grid.Row="0"
+            Grid.ColumnSpan="4"
+            VerticalOptions="Start"
+            HorizontalOptions="End"
+            Text="{Binding Temp}"
+            TextColor="White"
+            IsVisible="True"/>
+
+        <Label
             Text="{Binding Result}"
             Grid.Column="0"
             Grid.Row="0"

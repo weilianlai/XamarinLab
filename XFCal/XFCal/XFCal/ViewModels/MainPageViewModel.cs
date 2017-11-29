@@ -15,7 +15,9 @@ namespace XFCal.ViewModels
         public event PropertyChangedEventHandler PropertyChanged;
 
         private readonly INavigationService _navigationService;
-        public int Result { get; set; }
+        public string Result { get; set; } = "";
+        public string Temp { get; set; } = "";
+        public string aa { get; set; }
         public DelegateCommand OneCommand { get; set; }
         public DelegateCommand TwoCommand { get; set; }
         public DelegateCommand ThreeCommand { get; set; }
@@ -39,50 +41,92 @@ namespace XFCal.ViewModels
             _navigationService = navigationService;
             OneCommand = new DelegateCommand(() =>
             {
-                Result = 1;
+                Result += "1";
+                aa = Result;
+                Temp += aa;
             });
+            
             TwoCommand = new DelegateCommand(() => 
             {
-                Result = 2;
+                Result += "2";
+                aa = Result;
+                Temp += aa;
             });
             ThreeCommand = new DelegateCommand(() => 
             {
-                Result = 3;
+                Result += "3";
+                aa = Result;
             });
             FourCommand = new DelegateCommand(() => 
             {
-                Result = 4;
+                Result += "4";
+                aa = Result;
             });
             FiveCommand = new DelegateCommand(() => 
             {
-                Result = 5;
+                Result += "5";
+                aa = Result;
             });
             SixCommand = new DelegateCommand(() => 
             {
-                Result = 6;
+                Result += "6";
+                aa = Result;
             });
             SevenCommand = new DelegateCommand(() =>
             {
-                Result = 7;
+                Result += "7";
+                aa = Result;
             });
             EightCommand = new DelegateCommand(() => 
             {
-                Result = 8;
+                Result += "8";
+                aa = Result;
             });
             NineCommand = new DelegateCommand(() => 
             {
-                Result = 9;
+                Result += "9";
+                aa = Result;
             });
             ZeroCommand = new DelegateCommand(() => 
             {
-                Result = 0;
+                Result += "0";
+                aa = Result;
             });
-            DivideCommand = new DelegateCommand(() => { });
-            MultipleCommand = new DelegateCommand(() => { });
-            MinusCommand = new DelegateCommand(() => { });
-            PlusCommand = new DelegateCommand(() => { });
-            EqualCommand = new DelegateCommand(() => { });
+            DivideCommand = new DelegateCommand(() => 
+            {
+                Result = "";
+                aa = "/";
+            });
+            MultipleCommand = new DelegateCommand(() => 
+            {
+                Result = "";
+                aa = "*";
+            });
+            MinusCommand = new DelegateCommand(() => 
+            {
+                Result = "";
+                aa = "-";
+            });
+            PlusCommand = new DelegateCommand(() => 
+            {
+                Result = "";
+                aa = "+";
+            });
+            EqualCommand = new DelegateCommand(() => 
+            {
 
+                Result ="";
+                aa = "";
+                Temp = "";
+            });
+            ClearCommand = new DelegateCommand(()=> 
+            {
+                Result ="";
+                aa = "";
+                Temp="";
+            });
+
+            
 
         }
 
