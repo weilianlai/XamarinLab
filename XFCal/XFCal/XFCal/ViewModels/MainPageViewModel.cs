@@ -41,76 +41,74 @@ namespace XFCal.ViewModels
             _navigationService = navigationService;
             OneCommand = new DelegateCommand(() =>
             {
-                Result += "1";
-                aa = Result;
-                Temp += aa;
+                Result = "1";
+                Temp += Result;
             });
             
             TwoCommand = new DelegateCommand(() => 
             {
-                Result += "2";
-                aa = Result;
-                Temp += aa;
+                Result = "2";
+                Temp += Result;
             });
             ThreeCommand = new DelegateCommand(() => 
             {
-                Result += "3";
-                aa = Result;
+                Result = "3";
+                Temp += Result;
             });
             FourCommand = new DelegateCommand(() => 
             {
-                Result += "4";
-                aa = Result;
+                Result = "4";
+                Temp += Result;
             });
             FiveCommand = new DelegateCommand(() => 
             {
-                Result += "5";
-                aa = Result;
+                Result = "5";
+                Temp += Result;
             });
             SixCommand = new DelegateCommand(() => 
             {
-                Result += "6";
-                aa = Result;
+                Result = "6";
+                Temp += Result;
             });
             SevenCommand = new DelegateCommand(() =>
             {
-                Result += "7";
-                aa = Result;
+                Result = "7";
+                Temp += Result;
             });
             EightCommand = new DelegateCommand(() => 
             {
-                Result += "8";
-                aa = Result;
+                Result = "8";
+                Temp += Result;
             });
             NineCommand = new DelegateCommand(() => 
             {
-                Result += "9";
-                aa = Result;
+                Result = "9";
+                Temp += Result;
             });
             ZeroCommand = new DelegateCommand(() => 
             {
-                Result += "0";
-                aa = Result;
+                Result = "0";
+                Temp += Result;
             });
             DivideCommand = new DelegateCommand(() => 
             {
                 Result = "";
-                aa = "/";
+                Temp += "/";
             });
             MultipleCommand = new DelegateCommand(() => 
             {
                 Result = "";
-                aa = "*";
+                Temp += "*";
             });
             MinusCommand = new DelegateCommand(() => 
             {
                 Result = "";
-                aa = "-";
+                Temp += "-";
             });
             PlusCommand = new DelegateCommand(() => 
             {
                 Result = "";
-                aa = "+";
+                Temp += "+";
             });
             EqualCommand = new DelegateCommand(() => 
             {
