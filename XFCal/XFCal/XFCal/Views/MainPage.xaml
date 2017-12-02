@@ -6,8 +6,8 @@
              NavigationPage.HasNavigationBar="False" >
 
     <Grid
-        RowSpacing="1"
-        ColumnSpacing="1"
+        RowSpacing="1.5"
+        ColumnSpacing="1.5"
         BackgroundColor="Black">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -65,7 +65,7 @@
             Grid.Row="1"
             VerticalOptions="Center"
             HorizontalOptions="Center"
-            FontSize="40"
+            FontSize="Large"
             BackgroundColor="Transparent">
         </Button>
         <BoxView
@@ -80,7 +80,7 @@
             Grid.Row="2"
             VerticalOptions="Center"
             HorizontalOptions="Center"
-            FontSize="40"
+            FontSize="Large"
             BackgroundColor="Transparent">
         </Button>
 
