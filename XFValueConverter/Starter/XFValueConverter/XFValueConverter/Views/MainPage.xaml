@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFValueConverter.Views.MainPage"
+             Title="數值轉換器 Value Converter">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="{Binding Title}" />
+        <Entry
+            Text="{Binding YourAnswer}"/>
+        <BoxView
+            Color="Black"
+            WidthRequest="100"
+            HeightRequest="100"/>
+    </StackLayout>
+
+</ContentPage>
