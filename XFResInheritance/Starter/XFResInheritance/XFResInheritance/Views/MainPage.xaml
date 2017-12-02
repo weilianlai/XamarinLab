@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFResInheritance.Views.MainPage"
+             Title="XAML 資源字典項目與繼承">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="App層級資源" FontSize="30"  />
+        <Label Text="頁面層級資源" FontSize="30"  />
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+            <Label Text="StackLayout資源" FontSize="30"  />
+            <Label Text="Label 資源" FontSize="30" >
+            </Label>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
