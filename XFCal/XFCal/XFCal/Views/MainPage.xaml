@@ -80,7 +80,7 @@
             Grid.Row="2"
             VerticalOptions="Center"
             HorizontalOptions="Center"
-            FontSize="Large"
+            FontSize="{Binding size}"
             BackgroundColor="Transparent">
         </Button>
 

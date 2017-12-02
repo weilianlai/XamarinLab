@@ -15,6 +15,7 @@ namespace XFCal.ViewModels
         public event PropertyChangedEventHandler PropertyChanged;
 
         private readonly INavigationService _navigationService;
+        public int size { get; set; }
         public string Result { get; set; } = "";
         public string Temp { get; set; } = "";
         public string aa { get; set; }
@@ -39,7 +40,10 @@ namespace XFCal.ViewModels
         public MainPageViewModel(INavigationService navigationService)
         {
             _navigationService = navigationService;
-            OneCommand = new DelegateCommand(() =>
+
+            if (Width > Height)
+
+                OneCommand = new DelegateCommand(() =>
             {
                 Result = "1";
                 Temp += Result;
