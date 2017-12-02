@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:attachedProperties="clr-namespace:XFAttProp.AttachedProperties"
+             x:Class="XFAttProp.Views.MainPage"
+             Title="附加屬性 Attached Properties">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="{Binding Title}" />
+
+        <!--沒有使用 自訂附加屬性 的使用方式-->
+        <Label Text="正常下使用 Entry"/>
+        <Entry />
+
+        <!--使用 自訂附加屬性 的使用方式-->
+        <Label Text="有使用附加屬性的 Entry"/>
+        <Entry attachedProperties:EntryTypeAttached.EntryType="Email" />
+        <Entry attachedProperties:EntryTypeAttached.EntryType="Phone" />
+        <Entry attachedProperties:EntryTypeAttached.EntryType="Number" />
+
+        <!--使用一個不存在的附加屬性值，會如何呢?-->
+        <Label Text="使用一個不存在的附加屬性值"/>
+        <Entry attachedProperties:EntryTypeAttached.EntryType="不存在" />
+    </StackLayout>
+
+</ContentPage>
