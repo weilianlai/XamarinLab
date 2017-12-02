@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:customControls="clr-namespace:XFBindProp.CustomControls"
+             x:Class="XFBindProp.Views.MainPage"
+             Title="可綁定屬性 Bindable Properties">
+
+    <StackLayout HorizontalOptions="Fill" VerticalOptions="Center">
+
+        <Entry />
+        <Entry />
+        <Entry />
+        <customControls:DoggyEntry EntryType="Email"/>
+        <customControls:DoggyEntry EntryType="Phone"/>
+        <customControls:DoggyEntry EntryType="Number"/>
+    </StackLayout>
+
+</ContentPage>
